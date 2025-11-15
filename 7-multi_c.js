@@ -6,5 +6,5 @@ if (Number.isInteger(toInteger)) {
         console.log("C is fun");
     }
 } else {
-    console.log("Missing numner of occurrences");
+    console.log("Missing number of occurrences");
 }
