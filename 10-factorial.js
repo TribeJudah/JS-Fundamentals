@@ -3,7 +3,7 @@ const args = process.argv.slice(2);
 function factorial(num) {
     const toNumber = Number(num);
 
-    if (Number.isNan(toNumber)) return 1;
+    if (Number.isNaN(toNumber)) return 1;
 
     if(toNumber === 1) return 1;
 
